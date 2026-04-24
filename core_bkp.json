@@ -1,0 +1,995 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-06-18T18:23:52.651Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Passage id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-24T17:27:12.114Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-27T17:17:52.035Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-27T17:18:09.520Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Usu\\u00e1rio \\u00e9 da equipe\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-03-11T18:30:02.883Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-03-11T18:30:41.226Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "teste@teste.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-03-11T18:30:54.984Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-03-19T14:21:41.842Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "(1) - Rick Rordan - rick.rordan@rr.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-03-19T14:21:48.089Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "(1) - Fantasia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-03-19T14:22:01.939Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "(1) - Sextante",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-03-19T14:22:39.214Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) Magnus Chase (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-03-19T14:24:28.286Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "(2) - Bianca - bianca@bianca",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-03-19T14:24:38.638Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "(2) - Informática",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-03-19T14:24:48.852Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "(2) - Helena",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-03-19T14:25:11.063Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) Figma (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-03-19T14:32:22.605Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) Magnus Chase (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autores\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-03-19T14:32:27.460Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) Figma (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autores\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-03-19T14:32:31.139Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) Figma (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-04-17T13:47:19.903Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "(3) Magnus Chase - A Espada do Verão (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add autor",
+    "content_type": 7,
+    "codename": "add_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change autor",
+    "content_type": 7,
+    "codename": "change_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete autor",
+    "content_type": 7,
+    "codename": "delete_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view autor",
+    "content_type": 7,
+    "codename": "view_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 8,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 8,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 8,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 8,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add editora",
+    "content_type": 9,
+    "codename": "add_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change editora",
+    "content_type": 9,
+    "codename": "change_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete editora",
+    "content_type": 9,
+    "codename": "delete_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view editora",
+    "content_type": 9,
+    "codename": "view_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add livro",
+    "content_type": 10,
+    "codename": "add_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change livro",
+    "content_type": 10,
+    "codename": "change_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete livro",
+    "content_type": 10,
+    "codename": "delete_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view livro",
+    "content_type": 10,
+    "codename": "view_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "autor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "editora"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "livro"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "60aibj2qccnugrjh11uyhrhmwzdui1oh",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sLnSm:j0HQkjbNxWzfywH481e3iiy2qq08knrwB1ZLaagwRb0",
+    "expire_date": "2024-07-08T17:26:44.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c1wpjs3qq236dfgzg1tgek3flzxvekq0",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlkb29l1KOk5g7XrDw6gRIqTCnF3iJQC2jcz76UCb2sNW8tLGJM6q06dfjfh-MjTDtKdp9us4zytyyh6V_RBm77OKT8vh_t3ULnVb20zGc_DYMFAGYABe0E2gMW6DgEpoXEgHSETRSeJYubCsS9e2BOq9we2ujds:1vw1So:VL7e8gen38EJqcfDzqzbzUSmSSwD-mOzd56lfsVVh2E",
+    "expire_date": "2026-03-13T17:17:18.843Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cpe6vh7zsh8mk70dctkiq3wk9dnvefus",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1vw1TM:3LFjwWkza_pDbf1AZUmJrftVpETUHFtJ-gvFlNWS6I8",
+    "expire_date": "2026-03-13T17:17:52.252Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cr4lplh7dxeel2rztzlv4hyry6bstayk",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1wBBXi:Z6kgjuR-njb0Ig9qi4Z0Ucdi7lt3E1gd39CC-BQYVCk",
+    "expire_date": "2026-04-24T13:05:02.537Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fgigqqlre5mrpmmq300z385s69xcgdwn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sVx5W:in5DI8MWFfqHmDnlx0MmxosvWqf31MVXNHqDywmdngc",
+    "expire_date": "2024-08-05T17:44:42.461Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ijulvs5hnab1m959jk4lurdeeas6xjl3",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1w3E9z:dbF1HZPUt_RsmY63Z7cTwYNp4BCwgTX3qcWnSukeD7g",
+    "expire_date": "2026-04-02T14:15:39.123Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kd26mwo8ptvnhwobqjf98k2jafx5h02p",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1siv9E:6pqbY5DtxpUL-kUHZUoEAbu9Bf9BwN77PXRJ8qRR36c",
+    "expire_date": "2024-09-10T12:18:08.259Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yjwv42hyi55wpakgz1o8ls91ty7eqe1u",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sJdUV:rY8hd_2m2u3YGGz5LW3BFQGgHfshutei7gPRDpzv9kY",
+    "expire_date": "2024-07-02T18:23:35.702Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yp2u83wx96pvpie9qpy79bnzz14thsun",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1w0OKd:oTfBYiEHAAaeGocamXBwWC45MMqeGVMCW14-PRhSh-0",
+    "expire_date": "2026-03-25T18:30:55.069Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "53157f48-5bba-43cd-97ad-c3aefe87bb82",
+    "public_id": "c82551c0-a254-4f2d-bec3-31f1e6262f30",
+    "file": "images/c82551c0-a254-4f2d-bec3-31f1e6262f30.jpg",
+    "description": "Magnus Chase a espada do verao",
+    "uploaded_on": "2026-04-17T13:45:50.736Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "a1db4840-d061-46f9-9a80-c2c360e2f2c1",
+    "public_id": "55036743-8620-4c4f-b880-7ffc96f72148",
+    "file": "images/55036743-8620-4c4f-b880-7ffc96f72148.jpg",
+    "description": "Magnus Chase a espada do verao",
+    "uploaded_on": "2026-04-17T13:47:31.176Z"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 1,
+  "fields": {
+    "nome": "Rick Rordan",
+    "email": "rick.rordan@rr.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 2,
+  "fields": {
+    "nome": "Bianca",
+    "email": "bianca@bianca"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "Fantasia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 2,
+  "fields": {
+    "descricao": "Informática"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 1,
+  "fields": {
+    "nome": "Sextante",
+    "site": "https://sextante.com.br/"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 2,
+  "fields": {
+    "nome": "Helena",
+    "site": "helena.com"
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "Magnus Chase",
+    "isbn": "10020",
+    "quantidade": 2,
+    "preco": "22.90",
+    "categoria": 1,
+    "editora": 1,
+    "capa": null,
+    "autores": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 2,
+  "fields": {
+    "titulo": "Figma",
+    "isbn": "1221",
+    "quantidade": 1,
+    "preco": "600.00",
+    "categoria": 2,
+    "editora": 2,
+    "capa": null,
+    "autores": [
+      2
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 3,
+  "fields": {
+    "titulo": "Magnus Chase - A Espada do Verão",
+    "isbn": "12345678",
+    "quantidade": 1,
+    "preco": "90.00",
+    "categoria": 1,
+    "editora": 1,
+    "capa": 1,
+    "autores": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$7WWh9s6jMzry2Gbnx30H8d$wIZzPnIKrhbOpBi0Ny25dtOcRoOK+ileRqPtzv+CUQk=",
+    "last_login": "2026-04-10T13:05:02.460Z",
+    "is_superuser": true,
+    "email": "a@a.com",
+    "name": "Superusuário",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$gDw2xQZgwFkYpidganQBRU$8lNQVIM3rCWmyLCdPM0a3pcSHLmLYRZfhg1/snempV0=",
+    "last_login": null,
+    "is_superuser": true,
+    "email": "marcoandre@gmail.com",
+    "name": "Marco André Lopes Mendes",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
