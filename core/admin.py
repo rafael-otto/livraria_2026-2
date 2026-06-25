@@ -6,7 +6,7 @@ from django.contrib.admin import ModelAdmin, register
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
 
-from core.models import Autor, Categoria, Compra,Editora, Livro, User
+from core.models import Autor, Categoria, Compra, Editora, Livro, User
 
 
 @register(Autor)
