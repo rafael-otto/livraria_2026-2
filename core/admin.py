@@ -5,7 +5,6 @@ Django admin customization.
 from django.contrib.admin import ModelAdmin, TabularInline, register
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
-from regex import T
 
 from core.models import Autor, Categoria, Compra, Editora, ItensCompra, Livro, User
 
