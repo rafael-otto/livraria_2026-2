@@ -8,7 +8,7 @@ from uploader.serializers import ImageSerializer
 class LivroListSerializer(ModelSerializer):
     class Meta:
         model = Livro
-        fields = ('id', 'titulo, preco')
+        fields = ('id', 'titulo', 'preco')
 
 
 class LivroRetrieveSerializer(ModelSerializer):
