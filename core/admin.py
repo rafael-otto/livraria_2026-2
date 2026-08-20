@@ -2,7 +2,7 @@
 Django admin customization.
 """
 
-from django.contrib.admin import ModelAdmin, TabularInline, register
+from django.contrib.admin import ModelAdmin, TabularInline, display, register
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
 
@@ -40,7 +40,12 @@ class CompraAdmin(ModelAdmin):
     ordering = ('usuario', 'status')
     list_per_page = 10
     inlines = [ItensCompraInline]
+    readonly_fields = ('total',)
 
+    @display(description='Total')
+    def total_formatado(self, obj):
+        """Exibe R$ 123,45 em vez de 123.45."""
+        return f'R$ {obj.total:.2f}'
 
 @register(Editora)
 class EditoraAdmin(ModelAdmin):
