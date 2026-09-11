@@ -102,7 +102,9 @@ class CompraSerializer(ModelSerializer):
     status = CharField(source='get_status_display', read_only=True)
     itens = ItensCompraSerializer(many=True, read_only=True)
     data = DateTimeField(read_only=True)
+    tipo_pagamento = CharField(source='get_tipo_pagamento_display', read_only=True) # novo campo
+
 
     class Meta:
         model = Compra
-        fields = ('id', 'usuario', 'status', 'total', 'data', 'itens')
+        fields = ('id', 'usuario', 'status', 'total', 'tipo_pagamento', 'data', 'itens')
