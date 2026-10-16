@@ -1,3 +1,4 @@
+from django.db import transaction
 from django.utils import timezone
 from drf_spectacular.utils import extend_schema
 from rest_framework import status
@@ -30,28 +31,41 @@ class CompraViewSet(ModelViewSet):
 
     @extend_schema(
         request=None,
-        responses={200: None},
-        description="Gera um relatório de vendas do mês atual.",
-        summary="Relatório de vendas do mês",
+        responses={200: None, 400: None},
+        description="Finaliza a compra, atualizando o estoque dos livros.",
+        summary="Finalizar compra",
     )
-    @action(detail=False, methods=['get'])
-    def relatorio_vendas_mes(self, request):
-        agora = timezone.now()
-        inicio_mes = agora.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    @action(detail=True, methods=["post"])
+    @transaction.atomic
+    def finalizar(self, request, pk=None):
+        compra = self.get_object()
 
-        compras = Compra.objects.filter(
-                status=Compra.StatusCompra.FINALIZADO,
-                data__gte=inicio_mes
-        )
+        # Verifica se a compra já foi finalizada
+        if compra.status == Compra.StatusCompra.FINALIZADO:
+            return Response(
+                status=status.HTTP_400_BAD_REQUEST,
+                data={'status': 'Compra já finalizada'}
+            )
 
-        total_vendas = sum(compra.total for compra in compras)
-        quantidade_vendas = compras.count()
+        for item in compra.itens.all():
 
-        return Response(
-            {
-                'status': 'Relatório de vendas deste mês',
-                'total_vendas': total_vendas,
-                'quantidade_vendas': quantidade_vendas,
-            },
-            status=status.HTTP_200_OK,
-        )
+            # Valida se o estoque é suficiente para cada livro
+            if item.quantidade > item.livro.quantidade:
+                return Response(
+                    status=status.HTTP_400_BAD_REQUEST,
+                    data={
+                        'status': 'Quantidade insuficiente',
+                        'livro': item.livro.titulo,
+                        'quantidade_disponivel': item.livro.quantidade,
+                    }
+                )
+
+            # Atualiza o estoque dos livros
+            item.livro.quantidade -= item.quantidade
+            item.livro.save()
+
+        # Finaliza a compra: atualiza status
+        compra.status = Compra.StatusCompra.FINALIZADO
+        compra.save()
+
+        return Response(status=status.HTTP_200_OK, data={'status': 'Compra finalizada'})
